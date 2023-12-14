@@ -11,12 +11,12 @@ a user will be asked to create an account if they don't have one. then a menu po
 
 the user can add any credit card if it has a minimum of 100$. Once the card is added , the user can do any of the transactions shown in the menu.
 
-## System design:
-UML diagram:
+## UML diagram:
 ![UML diagram](https://github.com/Heba-Islam/Money-Transactions-System/assets/138635164/84ece959-7f9b-4e16-a2eb-f94e53d8dfbf)
 
 ## OOP topics used :
 ***Inheritance*** :
+
 the *AccountServices* class inherits from the abstract class *IAccountServices* class.
 
 ![Parent and Child classes](https://github.com/Heba-Islam/Money-Transactions-System/assets/138635164/12cdcefc-1b89-44fd-b6c6-5e951cc5c5dc)
