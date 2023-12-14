@@ -7,8 +7,7 @@ this system serves as a transactions system where one can send and recieve money
 all you need to have in order to run this program is any IDE that supports C++ !
                     
 ## Use case scenario:
-a user will be asked to create an account if they don't have one. then a menu pops up showing the programs services.
-
+a user will be asked to create an account if they don't have one. A menu pops up showing the programs services.
 the user can add any credit card if it has a minimum of 100$. Once the card is added , the user can do any of the transactions shown in the menu.
 
 ## UML diagram:
@@ -17,7 +16,7 @@ the user can add any credit card if it has a minimum of 100$. Once the card is a
 ## OOP topics used :
 ***Inheritance*** :
 
-the *AccountServices* class inherits from the abstract class *IAccountServices* class.
+the *AccountServices* class inherits from the abstract class *IAccountServices*.
 
 ![Parent and Child classes](https://github.com/Heba-Islam/Money-Transactions-System/assets/138635164/12cdcefc-1b89-44fd-b6c6-5e951cc5c5dc)
 
@@ -29,13 +28,13 @@ the *AccountServices* class uses an instance of *Account* class.
 
 ***Overloading*** :
 
-the ShowBalance function is overloaded , one version takes no arguments and the other takes a card as an argument.
+the ShowBalance function is overloaded, one version takes no arguments and the other takes a card as an argument.
 
 ![overloaded function](https://github.com/Heba-Islam/Money-Transactions-System/assets/138635164/af95c86d-5558-4fbd-a962-9f50addef43a)
 
 ***Polymorphism*** :
 
-sending money differes depending on the type of card used, so the function *SendMoney* was overriden in classes MasterCard and VisaCard -both inherit from the interface *ICardPayment*-and in the function SendMoney in class AccountServices, a pointer of ICardPayment was instantiated and the appropriate SendMoney function was applied based on the type of card.
+the extra fees associated with sending money differ depending on the type of card used, so the function *SendMoney* was overriden in classes MasterCard and VisaCard -both inherit from the interface *ICardPayment*-and in the function SendMoney in class AccountServices, a pointer of ICardPayment was instantiated and the appropriate SendMoney function was applied based on the type of card.
 
 ![polymorphism](https://github.com/Heba-Islam/Money-Transactions-System/assets/138635164/73b70a5b-919f-49e5-bafe-d3f5218a8cf7)
 
