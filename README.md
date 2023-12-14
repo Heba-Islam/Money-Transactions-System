@@ -34,7 +34,7 @@ the ShowBalance function is overloaded, one version takes no arguments and the o
 
 ***Polymorphism*** :
 
-the extra fees associated with sending money differ depending on the type of card used, so the function *SendMoney* was overriden in classes MasterCard and VisaCard -both inherit from the interface *ICardPayment*-and in the function SendMoney in class AccountServices, a pointer of ICardPayment was instantiated and the appropriate SendMoney function was applied based on the type of card.
+the extra fees associated with sending money differ depending on the type of card used, so the function *SendMoney* was overriden in classes *MasterCard* and *VisaCard* -both inherit from the interface *ICardPayment*. And in the function *SendMoney* in class *AccountServices*, a pointer of *ICardPayment* was instantiated and the appropriate SendMoney function was applied based on the type of card.
 
 ![polymorphism](https://github.com/Heba-Islam/Money-Transactions-System/assets/138635164/73b70a5b-919f-49e5-bafe-d3f5218a8cf7)
 
