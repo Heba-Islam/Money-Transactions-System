@@ -16,7 +16,7 @@ the user can add any credit card if it has a minimum of 100$. Once the card is a
 ## OOP topics used :
 ***Inheritance*** :
 
-the *AccountServices* class implements *IAccountServices*.
+the *AccountServices* class implements *IAccountServices* interface.
 
 ![Parent and Child classes](https://github.com/Heba-Islam/Money-Transactions-System/assets/138635164/12cdcefc-1b89-44fd-b6c6-5e951cc5c5dc)
 
